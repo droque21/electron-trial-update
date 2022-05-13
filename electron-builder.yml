@@ -1,0 +1,25 @@
+productName: "ARSReclama"
+appId: "dev.arsreclama"
+artifactName: "${productName}-${version}.${ext}"
+copyright: "Copyright © 2020 arsreclama.dev"
+
+asar: true
+
+files:
+  - "build/"
+  - "package.json"
+  - "main.js"
+  - "src/assets/*"
+  - "build/**/*"
+
+win:
+  icon: "src/assets/images/Windows.png"
+  target:
+    - "nsis"
+
+nsis:
+  deleteAppDataOnUninstall: true
+
+publish:
+  provider: "github"
+  token: "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"

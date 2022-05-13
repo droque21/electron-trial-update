@@ -1,0 +1,26 @@
+{
+  "name": "ars-trial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "electron-build": "electron-builder"
+  },
+  "homepage": "./",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron-is-dev": "1.2.0",
+    "electron-log": "4.4.6",
+    "electron-updater": "^4.3.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Technology-Portal/ARSReclama.git"
+  },
+  "devDependencies": {
+    "electron": "17.4.3",
+    "electron-builder": "22.14.13"
+  }
+}
